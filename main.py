@@ -14,7 +14,7 @@ DEBUG = True
 
 
 def chain_setup(
-    dir_name: str = "opv3",
+    dir_name: str,
     rpc: str = "<DEFAULT_PREFFERED_RPC>",
     label: Optional[str] = "v3",
 ):

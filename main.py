@@ -15,8 +15,8 @@ DEBUG = True
 
 def chain_setup(
     dir_name: str,
-    rpc: str = "<DEFAULT_PREFFERED_RPC>",
-    label: Optional[str] = "v3",
+    rpc: str,
+    label: Optional[str] = "",
 ):
     w3 = Web3(HTTPProvider(rpc))
     data_path = f"./{dir_name}/*.parquet"
@@ -130,11 +130,13 @@ def chain_setup(
 
 
 if __name__ == "__main__":
+    # example for v3 optimism logs
     os.popen("sh cryo_script.sh")
     logging.info(
         "fetching logs, this might take seconds or hours dependidng on the block range"
     )
     chain_setup(
-        dir_name="opv3",  # --output-dir in cryo command
+        dir_name="<OUTPUT_DIR_NAME>",  # --output-dir in cryo command
         rpc="<OPTIMISM_RPC_PROVIDER>",
+        lable="v3",
     )

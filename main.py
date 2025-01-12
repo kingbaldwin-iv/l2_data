@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-DEBUG = True
+DEBUG = True # switch False afterwards
 
 
 def chain_setup(

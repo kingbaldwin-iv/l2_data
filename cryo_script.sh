@@ -7,4 +7,4 @@ cryo logs \
     --max-concurrent-requests 50 \
     --n-chunks 2000 \
     --no-report \
-    --rpc disco_op
+    --rpc <MESC_ALIAS>

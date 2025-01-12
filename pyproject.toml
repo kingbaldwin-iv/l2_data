@@ -1,0 +1,11 @@
+[project]
+name = "data-fetcher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "polars>=1.19.0",
+    "ruff>=0.9.1",
+    "web3>=7.6.1",
+]

@@ -3,7 +3,7 @@
 - cryo_script.sh: <LABEL>, <START_BLOCK>, <END_BLOCK>, <OUTPUT_DIR_NAME>, <MESC_ALIAS>
 ### Additional requirements:
 - [Mesc](https://github.com/paradigmxyz/mesc)
-- [Cryo](https://github.com/paradigmxyz/cryo?tab=readme-ov-file#installation)
+- [Cryo](https://github.com/paradigmxyz/cryo)
 ### Resulting Strcuture
 >
     .

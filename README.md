@@ -1,3 +1,4 @@
+## main.py
 ### Missing fields:
 - main.py: <OUTPUT_DIR_NAME>, <OPTIMISM_RPC_PROVIDER>
 - cryo_script.sh: <LABEL>, <START_BLOCK>, <END_BLOCK>, <OUTPUT_DIR_NAME>, <MESC_ALIAS>
@@ -52,3 +53,18 @@
   | pool_address | `str` |
   | token0 | `str` |
   | token1 | `str` |
+## objcts.py
+### Missing fields:
+- <PATH_TO_TOKENS_PARQUET_FILE>, <PATH_TO_POOLS_PARQUET_FILE>
+### Resulting Data Schema
+  | Field Name | Type |
+  |------------|------|
+  | transaction_hash | `str` |
+  | block_number | `i64` |
+  | transaction_index | `i64` |
+  | profit_token | `str` |
+  | profit_amount | `f64` |
+  | path | `str` |
+  | senders | `list[str]` |
+### Example output
+![Screenshot 2025-01-13 at 00 34 40](https://github.com/user-attachments/assets/ab00a59f-bffa-4494-842e-8b0c9bccbd46)

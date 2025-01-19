@@ -70,7 +70,10 @@
 ![Screenshot 2025-01-13 at 00 34 40](https://github.com/user-attachments/assets/ab00a59f-bffa-4494-842e-8b0c9bccbd46)
 ## mev_analyze.py
 Example of resulting plots
+### Atomic Arbitrage Freqeuncy plotted on ETH price overtime
 <img width="1189" alt="Screenshot 2025-01-19 at 04 00 47" src="https://github.com/user-attachments/assets/9b8b7bb2-7f17-438e-9939-fad2d02b4d53" />
-
+### Atomic Arbitrage Stats
 <img width="1510" alt="Screenshot 2025-01-19 at 04 01 07" src="https://github.com/user-attachments/assets/162fbd05-e6e4-48de-a434-058ae371fb91" />
-
+## This Repo is WIP, scripts should be viewed individually for now and paths should be manually adjusted
+- Rust(Alloy) Rewrite
+- Better structuring

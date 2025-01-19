@@ -68,3 +68,8 @@
   | senders | `list[str]` |
 ### Example output
 ![Screenshot 2025-01-13 at 00 34 40](https://github.com/user-attachments/assets/ab00a59f-bffa-4494-842e-8b0c9bccbd46)
+## mev_analyze.py
+Example of resulting plots
+![Uploading Screenshot 2025-01-19 at 04.00.47.png…]()
+<img width="1510" alt="Screenshot 2025-01-19 at 04 01 07" src="https://github.com/user-attachments/assets/162fbd05-e6e4-48de-a434-058ae371fb91" />
+
